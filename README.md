@@ -1,94 +1,57 @@
-Rewrite this Readme file for 2d java FX game. In used mvc system and java fx libraries. The game about knight who want escape castle which full of skeletons. Game have attack, save/load and inventory system 
+##Knight's Escape
+Description
+Knight's Escape is a 2D JavaFX game built using the MVC architectural pattern. The game follows a knight trapped in a skeleton-infested castle, and the player's objective is to guide the knight to freedom. The game features combat against skeletons, a save/load system, and an inventory system for managing items.
 
-# Game
+##Features
+2D Graphics: Experience the game world through engaging 2D visuals powered by JavaFX.
+
+MVC Architecture: Cleanly separated Model, View, and Controller components for maintainability and scalability.
+
+Combat System: Engage in thrilling battles against hordes of skeletons using various attacks.
+
+Save/Load System: Save your progress and resume your adventure at any time.
+
+Inventory System: Manage collected items and utilize them strategically.
+
+##Getting Started
+Prerequisites
+**Java JDK 11 or higher**
+
+JavaFX libraries (if not included with your JDK distribution)
+
+Running the Game
+Clone the Repository: git clone https://gitlab.fel.cvut.cz/nabokval/game.git
+
+Navigate to Project Directory: cd game
+
+Compile: javac \-module\-path <path\_to\_javafx\_libs> \-\-add\-modules javafx.controls,javafx.fxml <source\_files> (Replace <path\_to\_javafx\_libs> with the path to your JavaFX library directory and <source\_files> with the path to your game's source files. Note the escaped hyphens and underscores).
+
+Run: java \-module\-path <path\_to\_javafx\_libs> \-\-add\-modules javafx.controls,javafx.fxml <main\_class> (Replace <main\_class> with the name of your main class. Note the escaped hyphens and underscores).
+
+##Project Structure
+The project follows the MVC pattern:
+
+**Model**: Contains the game logic, data structures, and game state.
+
+**View**: Handles the graphical representation of the game, including the user interface.
+
+**Controller**: Mediates between the model and view, handling user input and updating the game state.
+
+##Controls
+**Movement**: Arrow keys or WASD
+
+**Attack**: Spacebar
+
+**Inventory**: 'I' key
+
+**Menu** : Escape
+
+##Contributing
+Contributions are welcome! Please fork the repository and submit pull requests for bug fixes, feature enhancements, or other improvements.
 
 
+Authors and Acknowledgment
+[Valera Nabok]
 
-## Getting started
-
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
-
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
-
-## Add your files
-
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
-
-cd existing_repo
-git remote add origin https://gitlab.fel.cvut.cz/nabokval/game.git
-git branch -M main
-git push -uf origin main
-
-
-## Integrate with your tools
-
-- [ ] [Set up project integrations](https://gitlab.fel.cvut.cz/nabokval/game/-/settings/integrations)
-
-## Collaborate with your team
-
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
-
-## Test and Deploy
-
-Use the built-in continuous integration in GitLab.
-
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
-
-***
-
-# Editing this README
-
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
-
-## Suggestions for a good README
-
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
-
-## Name
-Choose a self-explaining name for your project.
-
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+Project Status
+Actively under development.

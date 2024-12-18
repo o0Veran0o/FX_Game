@@ -19,14 +19,14 @@ Prerequisites
 
 JavaFX libraries (if not included with your JDK distribution)
 
-Running the Game
+## Running the Game
 Clone the Repository: git clone https://gitlab.fel.cvut.cz/nabokval/game.git
 
-Navigate to Project Directory: cd game
+**Navigate to Project Directory**: cd game
 
-Compile: javac \-module\-path <path\_to\_javafx\_libs> \-\-add\-modules javafx.controls,javafx.fxml <source\_files> (Replace <path\_to\_javafx\_libs> with the path to your JavaFX library directory and <source\_files> with the path to your game's source files. Note the escaped hyphens and underscores).
 
-Run: java \-module\-path <path\_to\_javafx\_libs> \-\-add\-modules javafx.controls,javafx.fxml <main\_class> (Replace <main\_class> with the name of your main class. Note the escaped hyphens and underscores).
+
+**Run**: just run file Game.jar.
 
 ## Project Structure
 The project follows the MVC pattern:

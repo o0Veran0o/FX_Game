@@ -20,13 +20,13 @@ Prerequisites
 JavaFX libraries (if not included with your JDK distribution)
 
 ## Running the Game
-Clone the Repository: git clone https://gitlab.fel.cvut.cz/nabokval/game.git
+Clone the Repository: git clone https://gitlab.fel.cvut.cz/nabokval/javaFX_Game.git
 
 **Navigate to Project Directory**: cd game
 
 
 
-**Run**: just run file Game.jar.
+**Run**: just run file **Game.jar.**
 
 ## Project Structure
 The project follows the MVC pattern:

@@ -13,7 +13,7 @@ Save/Load System: Save your progress and resume your adventure at any time.
 
 Inventory System: Manage collected items and utilize them strategically.
 
-##Getting Started
+## Getting Started
 Prerequisites
 **Java JDK 11 or higher**
 
@@ -28,7 +28,7 @@ Compile: javac \-module\-path <path\_to\_javafx\_libs> \-\-add\-modules javafx.c
 
 Run: java \-module\-path <path\_to\_javafx\_libs> \-\-add\-modules javafx.controls,javafx.fxml <main\_class> (Replace <main\_class> with the name of your main class. Note the escaped hyphens and underscores).
 
-##Project Structure
+## Project Structure
 The project follows the MVC pattern:
 
 **Model**: Contains the game logic, data structures, and game state.
@@ -37,7 +37,7 @@ The project follows the MVC pattern:
 
 **Controller**: Mediates between the model and view, handling user input and updating the game state.
 
-##Controls
+## Controls
 **Movement**: Arrow keys or WASD
 
 **Attack**: Spacebar
@@ -46,12 +46,12 @@ The project follows the MVC pattern:
 
 **Menu** : Escape
 
-##Contributing
+## Contributing
 Contributions are welcome! Please fork the repository and submit pull requests for bug fixes, feature enhancements, or other improvements.
 
 
-Authors and Acknowledgment
+## Authors and Acknowledgment
 [Valera Nabok]
 
-Project Status
+## Project Status
 Actively under development.

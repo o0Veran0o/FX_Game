@@ -68,7 +68,7 @@ Contributions are welcome! Please fork the repository and submit pull requests f
 
 ## Authors and Acknowledgment
 
-* [Valera Nabok]
+ **Valera Nabok**
 
 
 ## Project Status

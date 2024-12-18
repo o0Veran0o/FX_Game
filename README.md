@@ -1,4 +1,4 @@
-##Knight's Escape
+# Knight's Escape
 Description
 Knight's Escape is a 2D JavaFX game built using the MVC architectural pattern. The game follows a knight trapped in a skeleton-infested castle, and the player's objective is to guide the knight to freedom. The game features combat against skeletons, a save/load system, and an inventory system for managing items.
 

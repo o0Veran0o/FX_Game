@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>E:/Study/Cvut/Game/src/main/java</OriginalElement>
+  <nodes>
+    <node x="22.1462323539823" y="1792.810360596713">org.example.enemies.Skeleton</node>
+    <node x="121.0" y="1324.5">org.example.entity.Entity</node>
+    <node x="365.0" y="9.0">org.example.tiles.Tiles</node>
+    <node x="363.5" y="557.0">org.example.tiles.TileManager</node>
+    <node x="184.5" y="856.5">org.example.GamePanel</node>
+    <node x="155.0" y="236.5">org.example.KeyHandler</node>
+    <node x="-122.5" y="-15.0">org.example.items.Item</node>
+    <node x="241.83358717572696" y="1812.1664128242728">org.example.enemies.Slime</node>
+    <node x="-137.0" y="520.5">org.example.entity.Player</node>
+    <node x="286.0" y="1201.0">org.example.Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.example.entity.Player" target="org.example.items.Item" relationship="TO_MANY">
+      <point x="0.0" y="-104.5" />
+      <point x="-12.0" y="485.0" />
+      <point x="8.0" y="485.0" />
+      <point x="0.0" y="80.0" />
+    </edge>
+    <edge source="org.example.GamePanel" target="org.example.KeyHandler" relationship="TO_ONE">
+      <point x="61.75" y="-128.5" />
+      <point x="369.75" y="825.0" />
+      <point x="368.0" y="825.0" />
+      <point x="368.0" y="765.0" />
+      <point x="324.5" y="765.0" />
+      <point x="56.5" y="128.5" />
+    </edge>
+    <edge source="org.example.entity.Entity" target="org.example.GamePanel" relationship="TO_ONE">
+      <point x="43.5" y="-200.5" />
+      <point x="251.5" y="1285.0" />
+      <point x="246.25" y="1285.0" />
+      <point x="-61.75" y="128.5" />
+    </edge>
+    <edge source="org.example.GamePanel" target="org.example.KeyHandler" relationship="CREATE">
+      <point x="-61.75" y="-128.5" />
+      <point x="246.25" y="825.0" />
+      <point x="248.0" y="825.0" />
+      <point x="248.0" y="785.0" />
+      <point x="211.5" y="785.0" />
+      <point x="-56.5" y="128.5" />
+    </edge>
+    <edge source="org.example.GamePanel" target="org.example.entity.Player" relationship="TO_ONE">
+      <point x="61.75" y="-128.5" />
+      <point x="369.75" y="825.0" />
+      <point x="368.0" y="825.0" />
+      <point x="368.0" y="765.0" />
+      <point x="71.33333333333337" y="765.0" />
+      <point x="83.33333333333334" y="104.5" />
+    </edge>
+    <edge source="org.example.GamePanel" target="org.example.tiles.TileManager" relationship="TO_ONE">
+      <point x="61.75" y="-128.5" />
+      <point x="369.75" y="825.0" />
+      <point x="368.0" y="825.0" />
+      <point x="368.0" y="765.0" />
+      <point x="520.25" y="765.0" />
+      <point x="52.25" y="68.0" />
+    </edge>
+    <edge source="org.example.tiles.TileManager" target="org.example.tiles.Tiles" relationship="TO_MANY">
+      <point x="52.25" y="-68.0" />
+      <point x="520.25" y="525.0" />
+      <point x="489.5" y="525.0" />
+      <point x="41.5" y="56.0" />
+    </edge>
+    <edge source="org.example.entity.Player" target="org.example.entity.Entity" relationship="GENERALIZATION">
+      <point x="-83.33333333333334" y="104.5" />
+      <point x="-95.33333333333334" y="965.0" />
+      <point x="168.0" y="965.0" />
+      <point x="168.0" y="1285.0" />
+      <point x="164.5" y="1285.0" />
+      <point x="-43.5" y="-200.5" />
+    </edge>
+    <edge source="org.example.enemies.Skeleton" target="org.example.entity.Entity" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.5" />
+      <point x="100.6462323539823" y="1819.5" />
+      <point x="208.0" y="1819.5" />
+      <point x="0.0" y="200.5" />
+    </edge>
+    <edge source="org.example.GamePanel" target="org.example.tiles.TileManager" relationship="CREATE">
+      <point x="-61.75" y="-128.5" />
+      <point x="246.25" y="795.2419495095828" />
+      <point x="415.75" y="795.2419495095828" />
+      <point x="-52.25" y="68.0" />
+    </edge>
+    <edge source="org.example.Main" target="org.example.GamePanel" relationship="CREATE">
+      <point x="0.0" y="-44.0" />
+      <point x="368.0" y="1165.0" />
+      <point x="369.75" y="1165.0" />
+      <point x="61.75" y="128.5" />
+    </edge>
+    <edge source="org.example.GamePanel" target="org.example.entity.Player" relationship="CREATE">
+      <point x="-61.75" y="-128.5" />
+      <point x="246.25" y="825.0" />
+      <point x="190.8157819048293" y="825.0" />
+      <point x="190.8157819048293" y="808.471134292794" />
+      <point x="-12.0" y="808.471134292794" />
+      <point x="0.0" y="104.5" />
+    </edge>
+    <edge source="org.example.tiles.TileManager" target="org.example.tiles.Tiles" relationship="CREATE">
+      <point x="-52.25" y="-68.0" />
+      <point x="415.75" y="525.0" />
+      <point x="406.5" y="525.0" />
+      <point x="-41.5" y="56.0" />
+    </edge>
+    <edge source="org.example.enemies.Slime" target="org.example.entity.Entity" relationship="GENERALIZATION">
+      <point x="0.0" y="-31.5" />
+      <point x="309.33358717572696" y="1789.3872748419722" />
+      <point x="288.6629859519595" y="1789.3872748419722" />
+      <point x="288.6629859519595" y="1797.0022845815424" />
+      <point x="208.0" y="1797.0022845815424" />
+      <point x="0.0" y="200.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.7678538146123262" showDependencies="true" x="122.31120467822984" y="749.7090750139066" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
